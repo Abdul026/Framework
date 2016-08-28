@@ -13,6 +13,9 @@
         <module>Amazon</module>
         <module>Cnn</module>
         <module>NYTimes</module>
+        <module>Facebook</module>
+        <module>Huffinton</module>
+        <module>Youtube</module>
     </modules>
 
        <dependencyManagement>

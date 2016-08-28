@@ -60,9 +60,9 @@ public class Base {
     }
 
     public WebDriver getLocalDriver(String browserName){
-        if(browserName.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\rrt\\workspace-July2016\\WebApp-Automation\\Generic\\selenium-browser-driver\\chromedriver.exe");
-            driver = new ChromeDriver();
+        if(browserName.equalsIgnoreCase("Firefox")){
+            System.setProperty("webdriver.gecko.driver","C:\\Users\\Faheem\\Downloads\\geckodriver.exe");
+            driver = new FirefoxDriver();
         }else if(browserName.equalsIgnoreCase("firefox")){
             driver = new FirefoxDriver();
         } else if(browserName.equalsIgnoreCase("ie")) {
